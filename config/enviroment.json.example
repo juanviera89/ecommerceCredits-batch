@@ -1,0 +1,11 @@
+{
+    "db" : {
+        "port" : 0,
+        "host" : "host url",
+        "username" : "username",
+        "secret" : "access secret",
+        "dbname" : "db name",
+        "dialect" : "db engine"
+    },
+    "tokenSecret" : "encriptionsecret"
+}
