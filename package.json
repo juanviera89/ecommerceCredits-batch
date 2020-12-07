@@ -4,7 +4,7 @@
   "description": "Lambda function to process batch register on csv files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive \\\"components/**/*.test.js\\\" --inline-diffs"
   },
   "repository": {
     "type": "git",
